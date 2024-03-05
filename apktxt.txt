@@ -1,0 +1,11 @@
+https://dev.to/chinmaymhatre/how-to-generate-apk-using-react-native-expo-kae
+
+
+
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-masked-view/masked-view
+
+npm install --global expo-cli eas-cli
+
+expo login
+
+eas build -p android --profile preview
